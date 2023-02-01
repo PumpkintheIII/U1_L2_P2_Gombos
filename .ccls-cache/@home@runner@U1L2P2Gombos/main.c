@@ -29,4 +29,10 @@ int main(void) {
   numSum += num2; //adds num2 to numSum
   numSum += num3; //adds num3 to numSum
   printf("\nSum: %f", numSum); //prints numSum
+
+  numSum = numSum/3; //finds the average of the entered numbers
+
+  printf("\nThe average of your entered numbers is: %f", numSum);
+  //prints the average of the entered numbers
+  return 0; //ends the program
 }
