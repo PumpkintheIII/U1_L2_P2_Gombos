@@ -20,7 +20,12 @@ int main(void) {
   scanf("%f", &num3); 
   //collects the users input and formats it as a float
   
-  printf("\nFirst number: %f", num1);
-  printf("\nSecond number: %f", num2);
-  printf("\nThird number: %f", num3);
+  printf("\nFirst number: %f", num1); //prints num1
+  printf("\nSecond number: %f", num2); //prints num2
+  printf("\nThird number: %f", num3); //prints num3
+
+  numSum += num1; //adds num1 to numSum
+  numSum += num2; //adds num2 to numSum
+  numSum += num3; //adds num3 to numSum
+  printf("\nSum: %f", numSum); //prints numSum
 }
