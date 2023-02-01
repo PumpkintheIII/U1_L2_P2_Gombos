@@ -7,7 +7,8 @@
 
 int main(void) {
   float num1, num2, num3, numSum;
-
+  numSum = 0; //declare numSum's starting value
+  
   printf("Please enter a number: "); //Asks user for the first number
   scanf("%f", &num1); 
   //collects the users input and formats it as a float
